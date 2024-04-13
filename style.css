@@ -3,6 +3,11 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -11,7 +16,7 @@ footer{
     color: white;
 }
 
-footer a{
+footer a, .button{
     align-self: center;
     background-color: white;
     border-radius: 100px;
@@ -19,6 +24,10 @@ footer a{
     color: black;
     text-decoration: none;
     font-weight: bold;
+}
+
+.button:hover{
+    transform: scale(1.05);
 }
 
 footer *{
@@ -78,3 +87,110 @@ footer *{
 .plus:hover{
     background-color: #ffffff2f;
 }
+
+.grigio{
+    color: white;
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.grigio h2{
+    font-size: medium;
+    margin: 5px 0;
+}
+
+.grigio p{
+    margin-bottom: 30px;
+}
+
+.links{
+    margin: 20px 0;
+}
+
+.links a{
+    color: gray;
+}
+
+.link:hover a{
+    text-decoration: underline;
+}
+
+#lang-button{
+    margin-top: 30px;
+    border: white solid 2px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 0px 10px;
+}
+
+#lang-button:hover{
+    transform: scale(1.05);
+}
+
+#frecce a{
+    color: gray;
+    font-size: xx-large;
+    cursor: not-allowed;
+}
+
+#frecce{
+    padding-left: 20px;
+}
+
+#login{
+    margin-top: 20px;
+}
+
+#main{
+    background-color: #121212;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.artist-card{
+    margin: 0px 20px;
+}
+
+.artist-card p{
+    color: gray;
+}
+
+.artist-card img{
+    width: 200px;
+    border-radius: 500px;
+}
+
+.paragrafi{
+    flex-wrap: wrap;
+}
+
+.paragrafo{
+    margin: 0 20px;
+}
+
+.socials{
+    align-items: flex-start;
+}
+
+.socials .button{
+    display: block;
+    width: fit-content;
+    margin: 0px 10px;
+}
+
+.socials .button img{
+    width: 20px;
+}
+
